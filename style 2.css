@@ -1,0 +1,102 @@
+#menu{
+      width:100%;
+      height:40px;
+      background-color: #616A6B;
+      padding-top: 12px;
+	  text-align: center;
+}
+
+#menu a{
+      color:#ffffff;
+      font-family: "Emblema One", sans-serif;
+      font-size: 18px;
+      text-decoration: none;
+      font-weight: 800px;
+      
+      padding-left: 20px;
+      padding-right: 20px;
+	  font-style: italics;
+}
+
+#menu a:hover{
+       color: #5077bd;
+} 
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: auto;
+  font-family: "Emblema one", sans-serif;
+}
+
+
+.container{
+  max-width: 450px;
+  height: 450px;
+  background: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+p{
+  text-align: center;
+  letter-spacing: 1px;  
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.input,
+.msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.login .input{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child{
+  margin-right: 0;
+}
+
+.msg .area{
+  height: 100px;
+}
+
+.btn{
+  width: 250px;
+  background: #486255;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.input:focus,
+.msg .area:focus{
+  border: 2px solid #486255;
+}
+
+::-webkit-input-placeholder{
+  font-family: "Emblema one", sans-serif;
+}
